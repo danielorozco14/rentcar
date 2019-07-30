@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>rent car</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+	<nav>
+		<div class="nav-wrapper teal text-lighten-2">
+			<a href="index.html" class="brand-logo center">BAM RENT A CAR</a>
+			<ul id="nav-mobile" class="left hide-on-med-and-down">
+				<li><a href="servicio.html">Nuestros servicios</a></li>
+				<li><a href="quienessomos.php">Quienes somos</a></li>
+			</ul>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				</id>
+				<li><a href="contacto.php">Contactanos</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- ES NECESARIO QUE ESTE DENTRO DE PARALLAX-CONTAINER DE LO CONTRARIO MATERIALIZE NO LO RECONOCE-->
+	<div class="parallax-container">
+		<div class="parallax"><img src="img/hilux.jpg"></div>
+		<div id="index-banner" class="parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<br><br>
+					<h1 class="header center teal-text text-lighten-2">Bienvenidos</h1>
+					<div class="row center">
+						<h5 class="header col s12 light">Alquilar el auto que quieras es mas facil</h5>
+					</div>
+					<div class="row center">
+						<a href="servicio.html" id="download-button"
+							class="btn-large waves-effect waves-light teal lighten-1">Alquilalo hoy</a>
+					</div>
+					<br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>-->
+
+	<div class="container">
+		<div class="section">
+
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+						<h5 class="center">Flota de autos modernos</h5>
+						<p class="light">Poseemos una completa y moderna flota de vehiculos con los últimos modelos del
+							mercado y variedad para elegir de acuerdo a las necesidades de cada cliente, desde autos
+							pequeños, medianos, pasando por monovolúmenes, de aventura y vehículos familiares.</p>
+					</div>
+
+				</div>
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="material-icons">group</i></h2>
+						<h5 class="center">Asistencia mecanica</h5>
+						<p class="light">Todos nuestros vehículos cuentan con asistencia mecánica y servicio de grúa. El
+							mismo se encuentra disponible las 24 horas, durante todo el año.</p>
+					</div>
+
+				</div>
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+						<h5 class="center">Entrega personalizada</h5>
+						<p class="light">Podés elegir el lugar donde recibir y devolver el vehiculo. Un chofer de
+							nuestra empresa te entregará el vehículo en el lugar determinado puntualmente para tu mayor
+							seguridad y comodidad.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="parallax-container valign-wrapper">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<div class="row center">
+					<h5 class="header col s12 light">Te acercamos el mejor confort para que viajar sea como estar en tu
+						propio vehículo. Contamos con servicios adicionales de silla para bebés, GPS, Conexión para
+						dispositivos móviles y barras portaequipajes</h5>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+	</div>
+	<br><br><br><br><br>
+
+
+	<!-- SIEMPRE AGREGA ESTE CODIGO PARA USAR EL PARALLAX-->
+	<script >
+		document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems);
+  });
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
